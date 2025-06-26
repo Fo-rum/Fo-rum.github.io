@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Portfolio - Personal Bootstrap Template</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <!-- =======================================================
+  * Template Name: Personal
+  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
+  * Updated: Mar 05 2025 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="portfolio-page">
+
+    <header id="header" class="header d-flex align-items-center fixed-top">
+        <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+            <a href="index.html" class="logo d-flex align-items-center">
+                <!-- Uncomment the line below if you also wish to use an image logo -->
+                <!-- <img src="assets/img/logo.webp" alt=""> -->
+                <h1 class="sitename">Personal</h1>
+            </a>
+
+            <nav id="navmenu" class="navmenu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="services.html">Skills</a></li>
+                    <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+
+        </div>
+    </header>
+
+    <main class="main">
+
+        <!-- Page Title -->
+        <div class="page-title" data-aos="fade">
+            <div class="heading">
+                <div class="container">
+                    <div class="row d-flex justify-content-center text-center">
+                        <div class="col-lg-8">
+                            <h1>Portfolio</h1>
+                            <p class="mb-0">Comprehensive list of projects that I have worked upon</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="breadcrumbs">
+                <div class="container">
+                    <ol>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="current">Portfolio</li>
+                    </ol>
+                </div>
+            </nav>
+        </div><!-- End Page Title -->
+
+        <!-- Portfolio Section -->
+        <!-- Portfolio Projects Grid Section -->
+        <section id="portfolio-details" class="portfolio-details section">
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="row g-4">
+
+                    <!-- Project 1: UniPal -->
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="assets/img/portfolio/unipal.png" class="card-img-top" alt="UniPal project">
+                            <div class="card-body">
+                                <h5 class="card-title">UniPal</h5>
+                                <p class="card-text">
+                                    Developed a personalized academic advising platform featuring course recommendations
+                                    and professor
+                                    reviews. Engineered a scalable backend using Flask and MongoDB with JWT-based auth,
+                                    REST APIs, and EC2
+                                    deployment. Achieved 99.99% uptime and reduced transcript processing latency by 40%
+                                    through optimized
+                                    OCR parsing and query handling.
+                                </p>
+                                <div class="mb-2">
+                                    <span class="badge bg-secondary">MongoDB</span>
+                                    <span class="badge bg-secondary">Flask</span>
+                                    <span class="badge bg-secondary">React.js</span>
+                                    <span class="badge bg-secondary">AWS EC2</span>
+                                    <span class="badge bg-secondary">PyTest</span>
+                                    <span class="badge bg-secondary">GitHub Actions</span>
+                                </div>
+                                <div class="btn-wrapper">
+                                    <a href="https://github.com/Fo-rum/unipal-frontend" target="_blank"
+                                        class="btn btn-outline-primary btn-sm">View
+                                        Code (frontend)</a>
+                                    <a href="https://github.com/Fo-rum/unipal-backend" target="_blank"
+                                        class="btn btn-outline-primary btn-sm">View
+                                        Code (backend)</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Project 2: ResuMatch -->
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="assets/img/portfolio/ResuMatch.png" class="card-img-top" alt="ResuMatch project">
+                            <div class="card-body">
+                                <h5 class="card-title">ResuMatch</h5>
+                                <p class="card-text">
+                                    Designed and deployed an AI-powered job matching tool that uses GPT-4 and LangChain
+                                    to analyze resumes
+                                    and job descriptions for semantic fit. Built a FastAPI backend with modular
+                                    architecture, deployed
+                                    serverlessly using AWS Lambda with GitHub Actions for CI/CD. Integrated a Streamlit
+                                    frontend with CSV
+                                    logging for easy user tracking and insights.
+                                </p>
+                                <div class="mb-2">
+                                    <span class="badge bg-secondary">LangChain</span>
+                                    <span class="badge bg-secondary">GPT-4</span>
+                                    <span class="badge bg-secondary">FastAPI</span>
+                                    <span class="badge bg-secondary">AWS Lambda</span>
+                                    <span class="badge bg-secondary">Streamlit</span>
+                                    <span class="badge bg-secondary">GitHub Actions</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- Project 3: LocateCareers -->
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="assets/img/portfolio/LocateCareers.png" class="card-img-top"
+                                alt="LocateCareers project">
+                            <div class="card-body">
+                                <h5 class="card-title">LocateCareers</h5>
+                                <p class="card-text">
+                                    Built a fast, mobile-friendly job portal with Next.js and Django, leveraging
+                                    server-side rendering for
+                                    SEO and performance. Implemented secure authentication via Simple JWT and integrated
+                                    AWS S3 for resume
+                                    storage. Enhanced user experience by embedding the MapQuest API for interactive job
+                                    location
+                                    visualization.
+                                </p>
+                                <div class="mb-2">
+                                    <span class="badge bg-secondary">Next.js</span>
+                                    <span class="badge bg-secondary">Django</span>
+                                    <span class="badge bg-secondary">PostgreSQL</span>
+                                    <span class="badge bg-secondary">Simple JWT</span>
+                                    <span class="badge bg-secondary">AWS S3</span>
+                                    <span class="badge bg-secondary">MapQuest API</span>
+                                </div>
+                                <div class="btn-wrapper">
+                                    <a href="https://github.com/Fo-rum/LocateCareers" target="_blank"
+                                        class="btn btn-outline-primary btn-sm">View
+                                        Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4: CodeTogether -->
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="assets/img/portfolio/CodeTogether.jpeg" class="card-img-top"
+                                alt="CodeTogether project">
+                            <div class="card-body">
+                                <h5 class="card-title">CodeTogether</h5>
+                                <p class="card-text">
+                                    Created a real-time collaborative code editor using React.js and Socket.io with
+                                    multi-user editing,
+                                    live syncing, and syntax highlighting. Designed a Node.js + Express.js backend to
+                                    manage rooms and
+                                    sessions. Containerized the full stack using Docker Compose for easy local
+                                    deployment and testing.
+                                </p>
+                                <div class="mb-2">
+                                    <span class="badge bg-secondary">React.js</span>
+                                    <span class="badge bg-secondary">Node.js</span>
+                                    <span class="badge bg-secondary">Express.js</span>
+                                    <span class="badge bg-secondary">Socket.io</span>
+                                    <span class="badge bg-secondary">Docker</span>
+                                </div>
+                                <div class="btn-wrapper">
+                                    <a href="https://github.com/Fo-rum/CodeTogether" target="_blank"
+                                        class="btn btn-outline-primary btn-sm">View
+                                        Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 5: Txn project -->
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="assets/img/portfolio/Txn project.png" class="card-img-top" alt="UniPal project">
+                            <div class="card-body">
+                                <h5 class="card-title">Distributed Transaction Framework for Scalable E-Commerce</h5>
+                                <p class="card-text">
+                                    Designed a high-throughput, concurrency-safe e-commerce backend that sustained 15
+                                    transactions per
+                                    second across geo-distributed MongoDB nodes. Implemented SC-Cycle detection,
+                                    transaction chopping, and
+                                    multi-hop coordination to reduce perceived latency by 80%. The modular Python
+                                    simulation framework
+                                    supports 9 distinct transactional flows and leverages threaded execution for
+                                    scalable performance
+                                    benchmarking.
+                                </p>
+                                <div class="mb-2">
+                                    <span class="badge bg-secondary">Python</span>
+                                    <span class="badge bg-secondary">MongoDB</span>
+                                    <span class="badge bg-secondary">Concurrency</span>
+                                    <span class="badge bg-secondary">Distributed systems</span>
+                                </div>
+                                <div class="btn-wrapper">
+                                    <a href="https://github.com/Fo-rum/TransactionProcessing_Ecommerce" target="_blank"
+                                        class="btn btn-outline-primary btn-sm">View
+                                        Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 6: Key value file system -->
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="assets/img/portfolio/Key-value file system.png" class="card-img-top"
+                                alt="UniPal project">
+                            <div class="card-body">
+                                <h5 class="card-title">Key-value file system</h5>
+                                <p class="card-text">
+                                    Built a custom key-value file store on a loopback block device using low-level I/O
+                                    (pread, pwrite),
+                                    capable of handling over 10K entries. Reduced IOPS by 70% through in-memory caching
+                                    and multithreaded
+                                    buffering, while supporting persistent put, get, and delete operations.
+                                </p>
+                                <div class="mb-2">
+                                    <span class="badge bg-secondary">Linux</span>
+                                    <span class="badge bg-secondary">Valgrind</span>
+                                    <span class="badge bg-secondary">File systems</span>
+                                    <span class="badge bg-secondary">POSIX I/0 </span>
+                                    <span class="badge bg-secondary">C</span>
+                                    <span class="badge bg-secondary">Kernel</span>
+                                </div>
+                                <div class="btn-wrapper">
+                                    <a href="https://github.com/Fo-rum/key_value_file_store" target="_blank"
+                                        class="btn btn-outline-primary btn-sm">View
+                                        Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- Project 7: Dynamic Thread Scheduler-->
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="assets/img/portfolio/Dynamic_Thread_Scheduler.png" class="card-img-top"
+                                alt="UniPal project">
+                            <div class="card-body">
+                                <h5 class="card-title">Userspace Dynamic Thread Scheduler</h5>
+                                <p class="card-text">
+                                    Developed a cooperative userspace thread scheduler in C, enabling multitasking
+                                    across 5+ threads
+                                    without kernel-level support. Built custom APIs for thread creation, yield, and join
+                                    using
+                                    setjmp/longjmp and manual stack
+                                    management. Simulated round-robin scheduling through a central dispatcher loop to
+                                    manage context
+                                    switching
+                                    efficiently. Ensured thread safety and memory correctness via GDB debugging and
+                                    Valgrind-based
+                                    validation
+                                </p>
+                                <div class="mb-2">
+                                    <span class="badge bg-secondary">Linux</span>
+                                    <span class="badge bg-secondary">Multithreading</span>
+                                    <span class="badge bg-secondary">Context Switching</span>
+                                    <span class="badge bg-secondary">C</span>
+                                    <span class="badge bg-secondary">Valgrind</span>
+                                    <span class="badge bg-secondary">GDB</span>
+                                </div>
+                                <div class="btn-wrapper">
+                                    <a href="https://github.com/Fo-rum/Userspace_dynamic_thread_scheduler"
+                                        target="_blank" class="btn btn-outline-primary btn-sm">View
+                                        Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 8: Storage class memory manager -->
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="assets/img/portfolio/Storage class memory manager.png" class="card-img-top"
+                                alt="UniPal project">
+                            <div class="card-body">
+                                <h5 class="card-title">Storage class memory manager</h5>
+                                <p class="card-text">
+                                    Engineered a simulated memory manager using AVL trees to efficiently track
+                                    allocation/deallocation of
+                                    hybrid memory blocks. Included a custom CLI shell, modular system handlers, and
+                                    terminal utilities to
+                                    emulate SCM behavior with fast lookup, reusability, and extensibility.
+                                </p>
+                                <div class="mb-2">
+                                    <span class="badge bg-secondary">C</span>
+                                    <span class="badge bg-secondary">AVL Trees</span>
+                                    <span class="badge bg-secondary">Unix</span>
+                                </div>
+                                <div class="btn-wrapper">
+                                    <a href="https://github.com/Fo-rum/Storage_class_memory_manager" target="_blank"
+                                        class="btn btn-outline-primary btn-sm">View
+                                        Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 9: Autonmous self driving car prototype -->
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="assets/img/portfolio/Self-driving car.png" class="card-img-top"
+                                alt="UniPal project">
+                            <div class="card-body">
+                                <h5 class="card-title">Autonomous Self-Driving Car Prototype</h5>
+                                <p class="card-text">
+                                    Engineered a self-driving car system using YOLOv3 for object detection and OpenCV4
+                                    for lane tracking,
+                                    U-turn logic, and obstacle avoidance. Integrated LiDAR-based parking detection and
+                                    implemented
+                                    real-time motion control via serial communication between a Raspberry Pi (vision)
+                                    and Arduino
+                                    (actuation).
+                                </p>
+                                <div class="mb-2">
+                                    <span class="badge bg-secondary">Python</span>
+                                    <span class="badge bg-secondary">OpenCV4</span>
+                                    <span class="badge bg-secondary">YOLOv3</span>
+                                    <span class="badge bg-secondary">LiDAR</span>
+                                    <span class="badge bg-secondary">Raspberry Pi</span>
+                                    <span class="badge bg-secondary">Arduino</span>
+                                </div>
+                                <div class="btn-wrapper">
+                                    <a href="https://drive.google.com/drive/u/1/folders/1-DxcxsDdcicjpKYYWg2qQP8IEOCtAy4u"
+                                        target="_blank" class="btn btn-outline-primary btn-sm">View
+                                        Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 10: Smart refrigerator monitoring system -->
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card h-100 shadow-sm border-0">
+                            <img src="assets/img/portfolio/Smart refrigerator monitoring system.png"
+                                class="card-img-top" alt="UniPal project">
+                            <div class="card-body">
+                                <h5 class="card-title">Smart Refrigerator Monitoring System</h5>
+                                <p class="card-text">
+                                    Developed a complete edge-to-cloud IoT solution that monitors temperature, humidity,
+                                    and inventory in
+                                    real time using ESP32 with DHT22 and HX711 sensors. Built a modular C++ firmware and
+                                    a Python-based
+                                    backend to receive sensor data, trigger alerts, and support future integration with
+                                    cloud platforms
+                                <div class="mb-2">
+                                    <span class="badge bg-secondary">Python</span>
+                                    <span class="badge bg-secondary">C++</span>
+                                    <span class="badge bg-secondary">PlatformIO</span>
+                                </div>
+                                <div class="btn-wrapper">
+                                    <a href="https://github.com/Fo-rum/smart_refrigerator_monitoring_system"
+                                        target="_blank" class="btn btn-outline-primary btn-sm">View
+                                        Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer id="footer" class="footer dark-background">
+        <div class="container">
+
+            <div class="container">
+                <div class="copyright">
+                    <span>Copyright</span> <strong class="px-1 sitename">Personal</strong> <span>All Rights
+                        Reserved</span>
+                </div>
+                <div class="credits">
+                    <!-- All the links in the footer should remain intact. -->
+                    <!-- You can delete the links only if you've purchased the pro version. -->
+                    <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                    <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+                    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/typed.js/typed.umd.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

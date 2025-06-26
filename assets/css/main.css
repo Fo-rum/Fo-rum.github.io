@@ -1486,3 +1486,83 @@ section,
 .contact .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
+
+/* --------------------------------------------------------------
+# Project Card Styles – Static Display
+-------------------------------------------------------------- */
+.card {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.card-img-top {
+  width: 60%;
+  margin: 20px auto 10px auto;
+  /* Adds top margin */
+  display: block;
+  border-radius: 12px;
+}
+
+.card-body {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 1.35rem;
+  /* Increased font size */
+  color: #212529;
+  margin-bottom: 0.75rem;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #444;
+  margin-bottom: 0.75rem;
+}
+
+.badge {
+  margin: 0 4px 4px 0;
+  font-size: 0.75rem;
+  padding: 0.4em 0.6em;
+  background-color: #dedcdc;
+  color: #ffffff;
+  border-radius: 0.25rem;
+}
+
+.card-body .btn-wrapper {
+  text-align: center;
+  margin-top: auto;
+  /* Pushes the button to bottom only if space */
+  padding-top: 1rem;
+}
+
+.btn-outline-primary {
+  border-color: #007bff;
+  color: #007bff;
+  transition: all 0.3s ease;
+  padding: 6px 18px;
+  font-size: 0.9rem;
+}
+
+.btn-outline-primary:hover {
+  background-color: #007bff;
+  color: #fff;
+}
